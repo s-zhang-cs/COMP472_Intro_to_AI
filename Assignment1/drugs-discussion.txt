@@ -1,0 +1,4 @@
+Since the standard deviation of all the models are 0 (or erroneously close to 0 due to limitation of digital
+circuits and bits), the prediction of each model is fixed given a fixed training input. However, there are still
+2 questions in my mind: 1. why is it that my TOP models obtained from cross-validation not seem to improve on the
+prediction results; 2: the perceptrons are horrendously inaccurate. Is it because the data set is too small?

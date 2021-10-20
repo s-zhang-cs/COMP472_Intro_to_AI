@@ -1,0 +1,9 @@
+a) The macro accuracy is well suited for this dataset, because the distribution of categories is relatively
+even, and none of the categories holds a significantly heavier weight than others in the classification.
+
+b) The steps 7, 8 and 10 yielded the same result, while step 9 yielded a slightly different result. This can
+be explained by the fact that steps 7 and 8 are both computing on the same training set using the same algorithm without
+inherent randomness (naive bayes). Their results are therefore the same. As for step 10, we only slightly modified the
+smoothing value from 1.0 to 0.9, the bulk of the computation stays structurally similar and thus the result didn't change.
+As for step 9, we changed the smoothing value significantly from 1.0 (default) to 0.001, thus introducing some slight changes
+in the final classification.

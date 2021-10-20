@@ -1,0 +1,256 @@
+*******************************************************
+********* MULTINOMIALNB DEFAULT VALUES, TRY 1 *********
+*******************************************************
+
+b) confusion matrix
+[[ 99   0   1   0   0]
+ [  0  69   2   0   2]
+ [  0   0  78   0   1]
+ [  1   0   0 102   0]
+ [  1   0   1   0  88]]
+
+c) classification report
+               precision    recall  f1-score   support
+
+     business       0.98      0.99      0.99       100
+entertainment       1.00      0.95      0.97        73
+     politics       0.95      0.99      0.97        79
+        sport       1.00      0.99      1.00       103
+         tech       0.97      0.98      0.97        90
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+d) accuracy and f1 scores
+accuracy: 0.9797752808988764
+macro f1 score: 0.9786694707974588
+weighted f1 score: 0.9797956890778331
+
+e) prior probabilities
+business: 0.2292134831460674
+entertainment: 0.17348314606741572
+politics: 0.18741573033707865
+sport: 0.22966292134831462
+tech: 0.1802247191011236
+
+f) size of the vocabulary
+29421
+
+g) number of word-tokens in each class
+business: 164663
+tech: 198640
+politics: 185208
+sport: 162953
+entertainment: 124893
+
+h) number of word-tokens in the entire corpus
+836357
+
+i) the number and percentage of words with a frequency of zero in each class
+business: 17538(59.61048230855511%)
+tech: 17323(58.87971177050406%)
+politics: 18201(61.86397471194045%)
+sport: 18850(64.06988205703409%)
+entertainment: 17746(60.317460317460316%)
+
+j) the number and percentage of words with a frequency of one in the entire corpus
+number: 10005
+percentage: 34.006322014887324%
+
+k) your 2 favorite words (that are present in the vocabulary) and their log-prob
+hope: -8.438313803140984
+peace: -9.765609823498918
+*******************************************************
+********* MULTINOMIALNB DEFAULT VALUES, TRY 2 *********
+*******************************************************
+
+b) confusion matrix
+[[ 99   0   1   0   0]
+ [  0  69   2   0   2]
+ [  0   0  78   0   1]
+ [  1   0   0 102   0]
+ [  1   0   1   0  88]]
+
+c) classification report
+               precision    recall  f1-score   support
+
+     business       0.98      0.99      0.99       100
+entertainment       1.00      0.95      0.97        73
+     politics       0.95      0.99      0.97        79
+        sport       1.00      0.99      1.00       103
+         tech       0.97      0.98      0.97        90
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+d) accuracy and f1 scores
+accuracy: 0.9797752808988764
+macro f1 score: 0.9786694707974588
+weighted f1 score: 0.9797956890778331
+
+e) prior probabilities
+business: 0.2292134831460674
+entertainment: 0.17348314606741572
+politics: 0.18741573033707865
+sport: 0.22966292134831462
+tech: 0.1802247191011236
+
+f) size of the vocabulary
+29421
+
+g) number of word-tokens in each class
+business: 164663
+tech: 198640
+politics: 185208
+sport: 162953
+entertainment: 124893
+
+h) number of word-tokens in the entire corpus
+836357
+
+i) the number and percentage of words with a frequency of zero in each class
+business: 17538(59.61048230855511%)
+tech: 17323(58.87971177050406%)
+politics: 18201(61.86397471194045%)
+sport: 18850(64.06988205703409%)
+entertainment: 17746(60.317460317460316%)
+
+j) the number and percentage of words with a frequency of one in the entire corpus
+number: 10005
+percentage: 34.006322014887324%
+
+k) your 2 favorite words (that are present in the vocabulary) and their log-prob
+hope: -8.438313803140984
+peace: -9.765609823498918
+*******************************************************
+********* MULTINOMIALNB WITH 0.0001 SMOOTHING *********
+*******************************************************
+
+b) confusion matrix
+[[ 98   1   1   0   0]
+ [  0  67   2   0   4]
+ [  0   0  78   0   1]
+ [  2   0   1 100   0]
+ [  1   0   1   0  88]]
+
+c) classification report
+               precision    recall  f1-score   support
+
+     business       0.97      0.98      0.98       100
+entertainment       0.99      0.92      0.95        73
+     politics       0.94      0.99      0.96        79
+        sport       1.00      0.97      0.99       103
+         tech       0.95      0.98      0.96        90
+
+     accuracy                           0.97       445
+    macro avg       0.97      0.97      0.97       445
+ weighted avg       0.97      0.97      0.97       445
+
+
+d) accuracy and f1 scores
+accuracy: 0.9685393258426966
+macro f1 score: 0.9670824519516245
+weighted f1 score: 0.9685339504973879
+
+e) prior probabilities
+business: 0.2292134831460674
+entertainment: 0.17348314606741572
+politics: 0.18741573033707865
+sport: 0.22966292134831462
+tech: 0.1802247191011236
+
+f) size of the vocabulary
+29421
+
+g) number of word-tokens in each class
+business: 164663
+tech: 198640
+politics: 185208
+sport: 162953
+entertainment: 124893
+
+h) number of word-tokens in the entire corpus
+836357
+
+i) the number and percentage of words with a frequency of zero in each class
+business: 17538(59.61048230855511%)
+tech: 17323(58.87971177050406%)
+politics: 18201(61.86397471194045%)
+sport: 18850(64.06988205703409%)
+entertainment: 17746(60.317460317460316%)
+
+j) the number and percentage of words with a frequency of one in the entire corpus
+number: 10005
+percentage: 34.006322014887324%
+
+k) your 2 favorite words (that are present in the vocabulary) and their log-prob
+hope: -8.438313803140984
+peace: -9.765609823498918
+*******************************************************
+********** MULTINOMIALNB WITH 0.9 SMOOTHING ***********
+*******************************************************
+
+b) confusion matrix
+[[ 99   0   1   0   0]
+ [  0  69   2   0   2]
+ [  0   0  78   0   1]
+ [  1   0   0 102   0]
+ [  1   0   1   0  88]]
+
+c) classification report
+               precision    recall  f1-score   support
+
+     business       0.98      0.99      0.99       100
+entertainment       1.00      0.95      0.97        73
+     politics       0.95      0.99      0.97        79
+        sport       1.00      0.99      1.00       103
+         tech       0.97      0.98      0.97        90
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+d) accuracy and f1 scores
+accuracy: 0.9797752808988764
+macro f1 score: 0.9786694707974588
+weighted f1 score: 0.9797956890778331
+
+e) prior probabilities
+business: 0.2292134831460674
+entertainment: 0.17348314606741572
+politics: 0.18741573033707865
+sport: 0.22966292134831462
+tech: 0.1802247191011236
+
+f) size of the vocabulary
+29421
+
+g) number of word-tokens in each class
+business: 164663
+tech: 198640
+politics: 185208
+sport: 162953
+entertainment: 124893
+
+h) number of word-tokens in the entire corpus
+836357
+
+i) the number and percentage of words with a frequency of zero in each class
+business: 17538(59.61048230855511%)
+tech: 17323(58.87971177050406%)
+politics: 18201(61.86397471194045%)
+sport: 18850(64.06988205703409%)
+entertainment: 17746(60.317460317460316%)
+
+j) the number and percentage of words with a frequency of one in the entire corpus
+number: 10005
+percentage: 34.006322014887324%
+
+k) your 2 favorite words (that are present in the vocabulary) and their log-prob
+hope: -8.438313803140984
+peace: -9.765609823498918
