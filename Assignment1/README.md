@@ -1,4 +1,4 @@
-Mini-project 1 of COMP472 class at Concordia University, taught by professor Leila Kosseim.
+Mini-project 1 of COMP472 class at Concordia University, taught by professor Leila Kosseim for Fall2021.
 
 File structure:
 ```
