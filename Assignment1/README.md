@@ -1,5 +1,3 @@
-README
-
 Mini-project 1 of COMP472 class at Concordia University, taught by professor Leila Kosseim.
 
 File structure:
