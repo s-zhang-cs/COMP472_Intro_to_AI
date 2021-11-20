@@ -1,0 +1,121 @@
+board size = 3, number of blocs = 0, win size (consecutive pieces) = 3, maximum time allowed = 2
+blocs = []
+Player_O: AI, d = 6, alphabeta, e2
+Player_O: AI, d = 6, alphabeta, e2
+
+...
+...
+...
+
+
+Player X under AI controls plays: x = 1, y = 1
+
+i Evaluation time: 0.4419129
+ii Heuristic evaluations: 2538
+iii Evaluations by depth: {6: 2359, 5: 179}
+iv Average evaluation depth: 5.929472025216706
+
+...
+.X.
+...
+
+
+Player O under AI controls plays: x = 0, y = 0
+
+i Evaluation time: 0.0937498
+ii Heuristic evaluations: 1107
+iii Evaluations by depth: {6: 995, 5: 99, 4: 13}
+iv Average evaluation depth: 5.887082204155375
+
+O..
+.X.
+...
+
+
+Player X under AI controls plays: x = 0, y = 1
+
+i Evaluation time: 0.0229394
+ii Heuristic evaluations: 212
+iii Evaluations by depth: {6: 113, 5: 75, 4: 22, 3: 2}
+iv Average evaluation depth: 5.410377358490566
+
+OX.
+.X.
+...
+
+
+Player O under AI controls plays: x = 2, y = 1
+
+i Evaluation time: 0.0069833
+ii Heuristic evaluations: 81
+iii Evaluations by depth: {6: 37, 5: 15, 4: 26, 3: 3}
+iv Average evaluation depth: 5.061728395061729
+
+OX.
+.X.
+.O.
+
+
+Player X under AI controls plays: x = 1, y = 0
+
+i Evaluation time: 0.0029919
+ii Heuristic evaluations: 30
+iii Evaluations by depth: {4: 7, 3: 6, 5: 17}
+iv Average evaluation depth: 4.366666666666666
+
+OX.
+XX.
+.O.
+
+
+Player O under AI controls plays: x = 1, y = 2
+
+i Evaluation time: 0.0010026
+ii Heuristic evaluations: 11
+iii Evaluations by depth: {2: 3, 4: 6, 3: 2}
+iv Average evaluation depth: 3.272727272727273
+
+OX.
+XXO
+.O.
+
+
+Player X under AI controls plays: x = 0, y = 2
+
+i Evaluation time: 0.000998
+ii Heuristic evaluations: 4
+iii Evaluations by depth: {3: 4}
+iv Average evaluation depth: 3.0
+
+OXX
+XXO
+.O.
+
+
+Player O under AI controls plays: x = 2, y = 0
+
+i Evaluation time: 0.0
+ii Heuristic evaluations: 2
+iii Evaluations by depth: {2: 2}
+iv Average evaluation depth: 2.0
+
+OXX
+XXO
+OO.
+
+
+Player X under AI controls plays: x = 2, y = 2
+
+i Evaluation time: 0.000999
+ii Heuristic evaluations: 1
+iii Evaluations by depth: {1: 1}
+iv Average evaluation depth: 1.0
+
+OXX
+XXO
+OOX
+
+i Average evaluation time: h1 = 0.06350853708055285, h2 = None
+ii Total heuristic evaluations: h1 = 4666, h2 = 0
+iii Evaluations by depth: {6: 3504, 5: 385, 4: 74, 3: 17, 2: 5, 1: 1}
+vi Total moves: 9
