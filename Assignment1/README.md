@@ -1,18 +1,18 @@
-README
+Mini-project 1 of COMP472 class at Concordia University, taught by professor Leila Kosseim for Fall2021.
 
-Mini-project 1 of COMP472 class at Concordia University. 
+File structure:
+```
+Assignment1
+|__ Assignment1.ipynb (code)
+|__ bbc-discussion.txt (output)
+|__ bbc-performance.txt (output)
+|__ bbc-distribution.pdf (output)
+|__ drug-discussion.txt (output)
+|__ drug-performance.txt (output)
+|__ drug-distribution.pdf (output)
+|__ BBC-20210914T194535Z-001 
+    |__ BBC (dataset1)
+    |__ drug200.csv (dataset2)
+```
 
-File structure is flat:
-<br>Assignment1
-  <br>|__ Assignment1.ipynb (code)
-  <br>|__ bbc-discussion.txt (output)
-  <br>|__ bbc-performance.txt (output)
-  <br>|__ bbc-distribution.pdf (output)
-  <br>|__ drug-discussion.txt (output)
-  <br>|__ drug-performance.txt (output)
-  <br>|__ drug-distribution.pdf (output)
-  <br>|__ BBC-20210914T194535Z-001 
-  <br> &emsp;   |__ BBC (dataset1)
-  <br>|__ drug200.csv (dataset2)
-
-Others are self-explanatory. Mainly exposure to sklearn API. 
+Mostly exposure to sklearn API. 
