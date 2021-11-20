@@ -34,12 +34,14 @@ This mini-project implements a line 'em up AI using state-space graph search and
 heuristic, search depth, the game's board-size, bloc number and positions can be controlled 
 by the constructor and the play function. 
 
-The code skeleton is based on https://stackabuse.com/minimax-and-alpha-beta-pruning-in-python. The 2 heuristics are also
-unsophisticated, but that is not the point of this project. So enjoy beating the dumb AIs! :D   
+The code skeleton is based on https://stackabuse.com/minimax-and-alpha-beta-pruning-in-python. The 2 heuristics are
+unsophisticated, but that is not the main point of this project. So enjoy beating the dumb AIs! :D   
 
 Organization:
 ```buildoutcfg
 line_em_up.py (src)
-gameTrace-8641.txt (sample output 1)
+gameTrace-3032.txt (sample output 1)
+gameTrace-4145.txt (sample output 2)
+gameTrace-8651.txt (sample output 3)
 
 ```
